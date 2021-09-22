@@ -2,14 +2,15 @@ body{
     background-color:grey;
 }
 @media(max-height:800px){
-    .d1{
+    .block{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 200;
         font-size: 90px;
         color:white;
         top:50px;
         left:550px;
-        position: absolute;
+        display: flex;
+        justify-content: center;
     }
     .form1{
         position: absolute;
@@ -25,16 +26,8 @@ body{
         
     
     }
-    .f1{
-        position: absolute;
-        left: 50px;
-        border-radius: 25px;
-        border: 2px solid #609;
-        padding: 20px; 
-        width: 400px;
-        height: 15px; 
-    }
-    .b1{
+    
+    .btn{
         position: absolute;
         top:300px;
         left: 550px;
